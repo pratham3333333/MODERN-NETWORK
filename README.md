@@ -156,7 +156,152 @@ Microsoft Teams integrates messaging, meetings, and file storage for business co
 
 ---
 
-*End of Unit 1 README*
+# Unit 1 - README: Modern Networking and Communication Technologies
+
+---
+
+## Chapter 2: Requirement and Technology
+
+### 1. **What are Different Types of Traffic and What are the Requirements of Inelastic Traffic**
+
+**Answer:**
+**Types of Traffic:**
+- **Elastic Traffic:** Can adjust its transmission rate based on network conditions. Example: File downloads.
+- **Inelastic Traffic:** Requires constant data rate and timely delivery. Example: Voice calls.
+
+**Requirements of Inelastic Traffic:**
+- Low latency
+- Low jitter
+- Guaranteed bandwidth
+- Minimal packet loss
+
+**Example:**
+VoIP and live video conferencing require uninterrupted and smooth data flow.
+
+---
+
+### 2. **What is Real-Time Traffic? Explain with Example**
+
+**Answer:**
+Real-time traffic refers to data that must be delivered within strict time constraints. Delay or loss of data can significantly affect performance.
+
+**Example:**
+A video call where voice and video must be synchronized and arrive in real time.
+
+---
+
+### 3. **What are Different Types of Real-Time Traffic**
+
+**Answer:**
+- **Interactive Real-Time Traffic:** Requires two-way communication. Example: Video conferencing.
+- **Streaming Real-Time Traffic:** One-way continuous data. Example: Live sports streaming.
+- **Conversational Traffic:** Bidirectional, low-latency. Example: VoIP.
+- **Control Traffic:** Critical system data like remote robotic control.
+
+---
+
+### 4. **Explain with Diagram Big Data Networking**
+
+**Answer:**
+Big data networking involves the infrastructure and technologies that support the transfer and processing of massive datasets across distributed systems.
+
+**Key Components:**
+- Data sources (IoT, social media)
+- Data ingestion platforms
+- High-speed backbone networks
+- Distributed storage systems (e.g., Hadoop HDFS)
+
+**Diagram:**
+```
+[Data Sources] → [Ingestion Layer] → [Network Infrastructure] → [Distributed Storage] → [Analytics Engines]
+```
+
+**Example:**
+Analyzing customer behavior using Hadoop clusters connected over high-speed networks.
+
+---
+
+### 5. **Explain with Diagram Cloud Network Model**
+
+**Answer:**
+A cloud network model connects cloud resources to end-users over the internet or private networks, enabling scalable, flexible, and on-demand computing.
+
+**Layers:**
+- User Access Layer
+- Service Delivery Layer (IaaS, PaaS, SaaS)
+- Cloud Infrastructure Layer (servers, storage, network)
+
+**Diagram:**
+```
+[ Users ] → [ Internet/Private Network ] → [ Cloud Services (IaaS, PaaS, SaaS) ] → [ Data Centers ]
+```
+
+**Example:**
+Using Google Docs via the internet with backend resources hosted in Google's data centers.
+
+---
+
+### 6. **What is Mobile Traffic and What are Its Different Types**
+
+**Answer:**
+Mobile traffic refers to data communication that occurs over mobile networks (e.g., 3G/4G/5G). It includes all types of internet activities done on mobile devices.
+
+**Types:**
+- Voice traffic (calls)
+- Data traffic (browsing, streaming)
+- Messaging (SMS, MMS, app-based)
+- Signaling traffic (network management communication)
+
+**Example:**
+Streaming a movie on Netflix using mobile data.
+
+---
+
+### 7. **Write a Short Note on QoS (Quality of Service) and QoE (Quality of Experience)**
+
+**Answer:**
+**QoS (Quality of Service):**
+Technical measure of network performance such as bandwidth, latency, jitter, and packet loss. Ensures reliable delivery of services.
+
+**QoE (Quality of Experience):**
+User's perception and satisfaction of a service's performance. Depends on QoS but also includes subjective factors.
+
+**Example:**
+Even if bandwidth is high (QoS), buffering in video (QoE) can result in poor experience.
+
+---
+
+### 8. **What are the Elements of a Router**
+
+**Answer:**
+- **CPU & Memory:** Processes routing decisions.
+- **Interfaces/Ports:** Connects to different networks.
+- **Routing Table:** Holds path information.
+- **Forwarding Engine:** Routes packets to the appropriate interface.
+- **Operating System:** Manages hardware and routing protocols.
+
+**Example:**
+A home router managing internet access for all connected devices.
+
+---
+
+### 9. **Autonomous System**
+
+**Answer:**
+An Autonomous System (AS) is a collection of IP networks and routers under the control of a single organization that presents a common routing policy to the internet.
+
+**Characteristics:**
+- Identified by an AS Number (ASN)
+- Uses BGP (Border Gateway Protocol) for routing
+
+**Example:**
+An ISP managing multiple IP blocks and routers as one AS.
+
+---
+
+*End of Chapter 2*
+
+
 
 
 
